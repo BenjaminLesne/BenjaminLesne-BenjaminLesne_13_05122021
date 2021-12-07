@@ -19,11 +19,11 @@ ArgentBank is a bank that is trying to break into the industry and needs help wi
 
 ## Installation
 
-1 - Install [Yarn](https://yarnpkg.com/) on your system
-2-Install and run the back-end API. To do so, follow the installation steps [here](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API) in the readme file
-3-Clone this repository and run yarn install in your command line.
-4-Start the app with yarn start
-5-The app should now run in http://localhost:3000/ by default.
+- Install [Yarn](https://yarnpkg.com/) on your system
+-Install and run the back-end API. To do so, follow the installation steps [here](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API) in the readme file
+-Clone this repository and run yarn install in your command line.
+-Start the app with yarn start
+-The app should now run in http://localhost:3000/ by default.
 
 ## License
 
