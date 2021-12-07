@@ -14,7 +14,6 @@ ArgentBank is a bank that is trying to break into the industry and needs help wi
 
 **Useful links:**
 
-- [Live demo 🌍](https://benjaminlesne.github.io/BenjaminLesne_13_05122021/)
 - [Repository 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
 - [Back-End Repository 📖](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
