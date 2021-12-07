@@ -2,8 +2,8 @@
 
 ArgentBank is a bank that is trying to break into the industry and needs help with its application.
 
-Phase 1: User Authentification - Creating a web application for customers to log in and manage their accounts and profiles.
-Phase 2: Transactions - This would specify the API endpoints needed for a possible second mission once we have completed the first.
+- Phase 1: User Authentification - Creating a web application for customers to log in and manage their accounts and profiles.
+- Phase 2: Transactions - This would specify the API endpoints needed for a possible second mission once we have completed the first.
 
 **PROJECT GOALS**:
 
