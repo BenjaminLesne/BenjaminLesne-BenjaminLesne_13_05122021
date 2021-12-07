@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# ArgentBank
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ArgentBank is a bank that is trying to break into the industry and needs help with its application.
 
-## Available Scripts
+Phase 1: User Authentification - Creating a web application for customers to log in and manage their accounts and profiles.
+Phase 2: Transactions - This would specify the API endpoints needed for a possible second mission once we have completed the first.
 
-In the project directory, you can run:
+**PROJECT GOALS**:
 
-### `yarn start`
+- Implement a state manager in a React application
+- Interacting with an API
+- Modeling an API
+- Authenticating to an API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Useful links:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Live demo 🌍](https://benjaminlesne.github.io/BenjaminLesne_11_23112021/)
+- [Repository 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
+- [Back-End Repository 📖](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1 - Install [Yarn](https://yarnpkg.com/) on your system
+2-Install and run the back-end API. To do so, follow the installation steps [here](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API) in the readme file
+3-Clone this repository and run yarn install in your command line.
+4-Start the app with yarn start
+5-The app should now run in http://localhost:3000/ by default.
 
-### `yarn build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is part of the OpenClassrooms [Front-End Developer](https://openclassrooms.com/fr/paths/314-developpeur-front-end) course. The code is freely reusable, but the images / logo / figma mock-up do not belong to me.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you are also an OC student, you can freely draw inspiration from my work, but I obviously do not recommend copying parts of it.

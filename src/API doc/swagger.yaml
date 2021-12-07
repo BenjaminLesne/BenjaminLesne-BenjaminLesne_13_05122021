@@ -1,0 +1,220 @@
+swagger: "2.0"
+info:
+  title: Bank Argent API documentation
+  description: Contains API endpoints for argentBank project phase 2
+  version: "1.0.0"
+  termsOfService: "http://swagger.io/terms/"
+host: localhost:3001
+basePath: /api/v1
+schemes:
+  - http
+paths:
+  /user/transactions/currentMonth:
+    get:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Transactions API
+      description: API for fetching a user transactions
+      parameters:
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          type: "string"
+          required: true
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: User transactions retrieved successully
+          schema:
+            $ref: "#/definitions/userTransactions"
+        "400":
+          description: Invalid Fields
+        "500":
+          description: Internal Server Error
+
+  /user/transactions:
+    get:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Transactions API
+      description: API for fetching a user transactions
+      parameters:
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          type: "string"
+          required: true
+        - in: body
+          name: body
+          description: Get user transaction details
+          required: true
+          schema:
+            $ref: "#/definitions/getTransactions"
+      produces:
+        - application/json
+
+      responses:
+        "200":
+          description: User transactions retrieved successully
+          schema:
+            $ref: "#/definitions/userTransactions"
+        "400":
+          description: Invalid Fields
+        "500":
+          description: Internal Server Error
+
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Transactions API
+      description: API for adding a user transaction
+      parameters:
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          type: "string"
+          required: true
+        - in: body
+          name: body
+          description: Add user transaction
+          required: true
+          schema:
+            $ref: "#/definitions/sendTransactions"
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: User transaction added successully
+          schema:
+            $ref: "#/definitions/userTransactions"
+        "400":
+          description: Invalid Fields
+        "500":
+          description: Internal Server Error
+    put:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Transaction API
+      description: API for updating a user transaction
+      parameters:
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          type: string
+          required: true
+        - in: body
+          name: body
+          description: Update user transaction details
+          required: true
+          schema:
+            $ref: "#/definitions/sendTransactions"
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: User transaction updated successully
+          schema:
+            $ref: "#/definitions/userTransactions"
+        "400":
+          description: Invalid Fields
+        "500":
+          description: Internal Server Error
+
+    delete:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Transaction API
+      description: API for deleting a user transaction
+      parameters:
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          type: string
+          required: true
+        - in: body
+          name: body
+          description: Delete user transaction
+          required: true
+          schema:
+            $ref: "#/definitions/deleteUserTransactions"
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: User transaction deleted successully
+          schema:
+            $ref: "#/definitions/deleteUserTransactions"
+        "400":
+          description: Invalid Fields
+        "500":
+          description: Internal Server Error
+
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+
+definitions:
+  userTransactions:
+    type: object
+    properties:
+      status:
+        type: integer
+      message:
+        type: string
+      body:
+        type: object
+        properties:
+          userId:
+            type: string
+          email:
+            type: string
+          transactions:
+            type: array
+            items:
+              $ref: "#/definitions/transaction"
+  sendTransactions:
+    type: array
+    items:
+      $ref: "#/definitions/transaction"
+
+  getTransactions:
+    type: array
+    items:
+      type: number
+
+  transaction:
+    type: object
+    properties:
+      date:
+        type: string
+      amount:
+        type: number
+      balance:
+        type: number
+      description:
+        type: string
+
+  deleteUserTransactions:
+    type: object
+    properties:
+      userId:
+        type: string
+      email:
+        type: string
+      transactionsId:
+        type: array
+        items:
+          type: number

@@ -1,0 +1,35 @@
+.UpdateUserNames {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.UpdateUserNames__inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.UpdateUserNames__input {
+  color: #9ca3af;
+  border: solid 2px #9ca3af;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.UpdateUserNames__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.UpdateUserNames__button {
+  color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+  padding: 10px 35px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: white;
+}
