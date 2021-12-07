@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/BenjaminLesne-BenjaminLesne_13_05122021/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/main.8a2de03a.chunk.js",
-    "main.js.map": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/main.8a2de03a.chunk.js.map",
-    "runtime-main.js": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/runtime-main.dea40f3a.js",
-    "runtime-main.js.map": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/runtime-main.dea40f3a.js.map",
-    "static/js/2.5a149b21.chunk.js": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/2.5a149b21.chunk.js",
-    "static/js/2.5a149b21.chunk.js.map": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/2.5a149b21.chunk.js.map",
-    "static/js/3.a7b63986.chunk.js": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/3.a7b63986.chunk.js",
-    "static/js/3.a7b63986.chunk.js.map": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/3.a7b63986.chunk.js.map",
-    "index.html": "/BenjaminLesne-BenjaminLesne_13_05122021/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/BenjaminLesne-BenjaminLesne_13_05122021/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.5a149b21.chunk.js.LICENSE.txt": "/BenjaminLesne-BenjaminLesne_13_05122021/static/js/2.5a149b21.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/BenjaminLesne-BenjaminLesne_13_05122021/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.ae0cc620.chunk.css",
+    "main.js": "/static/js/main.ad420caa.chunk.js",
+    "main.js.map": "/static/js/main.ad420caa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ccd5b027.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ccd5b027.js.map",
+    "static/js/2.abfe2214.chunk.js": "/static/js/2.abfe2214.chunk.js",
+    "static/js/2.abfe2214.chunk.js.map": "/static/js/2.abfe2214.chunk.js.map",
+    "static/js/3.a20fe757.chunk.js": "/static/js/3.a20fe757.chunk.js",
+    "static/js/3.a20fe757.chunk.js.map": "/static/js/3.a20fe757.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ae0cc620.chunk.css.map": "/static/css/main.ae0cc620.chunk.css.map",
+    "static/js/2.abfe2214.chunk.js.LICENSE.txt": "/static/js/2.abfe2214.chunk.js.LICENSE.txt",
+    "static/media/argentBankLogo.e031a16c.png": "/static/media/argentBankLogo.e031a16c.png",
+    "static/media/Hero.css": "/static/media/bank-tree.4d59987c.jpeg",
+    "static/media/icon-chat.e238539d.png": "/static/media/icon-chat.e238539d.png",
+    "static/media/icon-money.8ec88bb1.png": "/static/media/icon-money.8ec88bb1.png",
+    "static/media/icon-security.1c819fa1.png": "/static/media/icon-security.1c819fa1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dea40f3a.js",
-    "static/js/2.5a149b21.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.8a2de03a.chunk.js"
+    "static/js/runtime-main.ccd5b027.js",
+    "static/js/2.abfe2214.chunk.js",
+    "static/css/main.ae0cc620.chunk.css",
+    "static/js/main.ad420caa.chunk.js"
   ]
 }
